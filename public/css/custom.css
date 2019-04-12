@@ -1,0 +1,92 @@
+.jumbotron{
+    padding: 25px;
+}
+
+.article{
+    position: relative;
+    height: 250px;
+}
+
+.img-banner{
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+
+.info{
+    float: left;
+    height: 250px;
+    width: calc(100% - 250px);
+    max-width: calc(100% - 250px);
+    overflow:hidden;
+    word-wrap: break-word;
+    word-break: normal;
+    padding-left: 25px;
+}
+
+.card{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.clickArea{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.cover{
+    float: left;
+    width: 50%;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height: 200px;
+}
+
+.description{
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+    position: relative;
+}
+
+.shoppingCardCount{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.addToCartForm{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.addToCartForm input{
+    width: 50px;
+    margin-right: 160px;
+}
+
+.addToCartForm button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+}
